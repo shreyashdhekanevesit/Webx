@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #c59eff, #ad31ff);
+    color: #1e1e1e;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Container Box */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Header */
+h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+/* Paragraph */
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #f0f0f0;
+}
+
+/* Buttons */
+.btn {
+    background: #ad31ff;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+    transition: background 0.3s ease, transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 4px 14px rgba(173, 49, 255, 0.3);
+}
+
+.btn:hover {
+    background: #931bdf;
+    transform: scale(1.07);
+    box-shadow: 0 6px 18px rgba(173, 49, 255, 0.4);
+}
